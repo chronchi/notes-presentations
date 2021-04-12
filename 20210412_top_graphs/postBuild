@@ -1,0 +1,6 @@
+conda install -c conda-forge rise
+jupyter-nbextension install rise --py --sys-prefix
+jupyter nbextension enable rise --py --sys-prefix
+jupyter trust scripts/20210412_spectral_clustering.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute index.ipynb
+jupyter trust scripts/20210412_spectral_clustering.ipynb.nbconvert.ipynb
