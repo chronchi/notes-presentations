@@ -1,4 +1,7 @@
 notebook
 scikit-learn
+pandas
+numpy
 matplotlib
-RISE
+seaborn
+rise==5.5.0
